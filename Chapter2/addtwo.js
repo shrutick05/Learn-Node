@@ -1,5 +1,3 @@
-var base = 2;
+var base = 8
 
-exports.addtwo = function(input) {
-	return parseInt(input) + base;
-};
+exports.addtwo = input => parseInt(input) + base
