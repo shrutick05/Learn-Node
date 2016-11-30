@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Loop ex</title>
+  <head>
+  <body>
+    <input id='someid' type="submit"></input>
+    <script>
+      document.getElementById('someid').addEventListener('click', (e) => {
+        e.target.innerHTML = 'I been clicked!'
+        alert('I been clicked!')
+        console.log(e)
+      }, false)
+    </script>
+  </body>
+</html>
