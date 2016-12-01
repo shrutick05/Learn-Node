@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/shrutick05/Learn-Node/issues"
   },
-  "homepage": "https://github.com/shrutick05/Learn-Node#readme"
+  "homepage": "https://github.com/shrutick05/Learn-Node#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "commander": "^2.9.0",
+    "underscore": "^1.8.3"
+  }
 }
